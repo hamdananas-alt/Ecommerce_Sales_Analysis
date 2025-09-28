@@ -27,15 +27,6 @@ I use **SQL for data extraction and transformation**, and **Power BI** for visua
 
 ---
 
-## 📁 Repository Structure
-├── README.md # Project overview
-├── data_dictionary.md # Dataset schema & field descriptions
-├── sql/ # SQL scripts for data exploration & transformation
-├── powerbi/ # Power BI dashboard files & screenshots
-
-
----
-
 ## 🚀 Tools & Skills Demonstrated
 - **BigQuery SQL** – Data extraction, transformation, nested fields (`UNNEST()`)  
 - **Power BI** – Interactive dashboards, DAX measures, KPIs  
