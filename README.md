@@ -1,6 +1,6 @@
-# E-commerce Sales Analysis with BigQuery & Power BI
+# UK E-Commerce Sales Analysis with BigQuery & Power BI
 
-This project analyzes e-commerce transaction data to uncover trends in revenue, customer behavior, and product performance.  
+This project analyzes **UK e-commerce transactional data** to uncover trends in revenue, customer behavior, and product performance.  
 The workflow follows the **Ask → Prepare → Process → Analyze → Share** framework.
 
 ## 📂 Project Structure
@@ -9,7 +9,7 @@ The workflow follows the **Ask → Prepare → Process → Analyze → Share** f
 - **data_dictionary.md** → [View Data Dictionary](data_dictionary.md)  
 
 ## 📊 Business Task
-Identify the key factors driving revenue growth and customer retention in the e-commerce dataset.
+Analyze UK e-commerce sales to identify key revenue drivers, top products, and customer behavior patterns in order to inform business decisions.
 
 ## 🛠️ Tools Used
 - Google BigQuery (SQL)
