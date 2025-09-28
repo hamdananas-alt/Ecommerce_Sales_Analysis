@@ -1,22 +1,55 @@
-# UK E-Commerce Sales Analysis with BigQuery & Power BI
+# Google Analytics E-Commerce Analysis
 
-This project analyzes **UK e-commerce transactional data** to uncover trends in revenue, customer behavior, and product performance.  
-The workflow follows the **Ask → Prepare → Process → Analyze → Share** framework.
+## 📌 Project Overview
+This project explores e-commerce data using the **Google Analytics Sample Dataset** available in **Google BigQuery**.  
+The goal is to answer the business question:
 
-## 📂 Project Structure
-- **/sql/** → SQL scripts for exploration, cleaning, and analysis  
-- **/powerbi/** → Power BI dashboard file (`.pbix`)  
-- **data_dictionary.md** → [View Data Dictionary](data_dictionary.md)  
+**“What drives e-commerce revenue and user behavior on the website?”**
 
-## 📊 Business Task
-Analyze UK e-commerce sales to identify key revenue drivers, top products, and customer behavior patterns in order to inform business decisions.
+I use **SQL for data extraction and transformation**, and **Power BI** for visualization.
 
-## 🛠️ Tools Used
-- Google BigQuery (SQL)
-- Power BI
-- GitHub (documentation & version control)
+---
 
-## 📑 Deliverables
-- [Data Dictionary](data_dictionary.md)  
-- SQL queries (`/sql/`)  
-- Interactive Power BI dashboard (`/powerbi/ecommerce_dashboard.pbix`)
+## 🔄 Data Analysis Steps
+1. **Ask** – Define the business problem: Identify key drivers of e-commerce revenue.  
+2. **Prepare** – Work with Google Analytics sample data in BigQuery.  
+3. **Process** – Clean and transform data with SQL (flatten nested fields, remove NULLs, aggregate).  
+4. **Analyze** – Calculate KPIs such as revenue, conversion rate, and product performance.  
+5. **Share** – Present insights in an interactive Power BI dashboard.  
+
+---
+
+## 📊 Dataset
+- **Source:** BigQuery Public Dataset  
+- **Table:** `bigquery-public-data.google_analytics_sample.ga_sessions_*`  
+- **Coverage:** August 2016 – August 2017 (sample data from the Google Merchandise Store)  
+- **Granularity:** Session-level data with nested product-level details  
+
+---
+
+## 📁 Repository Structure
+├── README.md # Project overview
+├── data_dictionary.md # Dataset schema & field descriptions
+├── sql/ # SQL scripts for data exploration & transformation
+├── powerbi/ # Power BI dashboard files & screenshots
+
+
+---
+
+## 🚀 Tools & Skills Demonstrated
+- **BigQuery SQL** – Data extraction, transformation, nested fields (`UNNEST()`)  
+- **Power BI** – Interactive dashboards, DAX measures, KPIs  
+- **Data Analysis** – E-commerce metrics, trend analysis, customer insights  
+
+---
+
+## 📌 Deliverables
+- Cleaned dataset queries (SQL)  
+- Power BI dashboard showcasing revenue trends, top products, and user behavior insights  
+- Documentation (README + data dictionary)  
+
+---
+
+## 📜 License
+This project is for **educational and portfolio purposes only**.  
+The dataset is publicly available from **Google BigQuery**.  
